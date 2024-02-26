@@ -1,0 +1,122 @@
+
+.container-fluid{
+    background-color: rgb(182, 182, 88);
+    margin:0;
+    height: 60px;
+   
+}
+h5{
+    color: white !important;
+    margin-left: 20px;
+}
+#navbarSupportedContent{
+   padding-left: 30em;
+   font-size: 20px;
+}
+.nav-item-1{
+    margin-right: 25px;
+    color:red;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item-2{
+    margin-right: 25px;
+}
+.nav-item-3{
+    margin-right: 25px;
+}
+.nav-item-5{
+    margin-left: 20px;
+}
+h2{
+    color: rgb(182, 182, 88);
+    padding: 20px 20px;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slideFromBottom 1s ease-out forwards;
+}
+@keyframes slideFromBottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.screen{
+    border: 1px solid  rgb(226, 226, 133) ;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 140px;
+    width:80%;
+    height: 800px; 
+    overflow-y:scroll;
+}
+.data{
+    text-align: center;
+    padding-top: 5%;
+}
+input{
+    width: 70%;
+    border: 1px solid  rgb(226, 226, 133) ;
+    box-shadow: 2px 2px 5px rgb(133, 133, 130) ;  
+   
+}
+
+::placeholder{
+    color :rgb(182, 182, 88) ; 
+}
+table{
+    width: 80%;
+    margin-left: 130px;   
+}
+tr{
+     border-bottom: solid rgb(211, 208, 208) 1px;
+     margin:5px
+}
+.delete{
+   background-color: red;
+   color: white;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   height: 30px;
+   width: 70px;
+   font-size: 15px;
+   text-align: center;
+   padding-left: 10x;
+   padding-top: 3px;
+   border-radius: 7px;
+   margin-left: 20px;
+}
+thead{
+    font-weight: bold;
+    font-size: large;
+text-align: center;
+    color : rgb(182, 182, 88);  
+}
+
+footer{
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(182, 182, 88);
+    
+}
+
+#footerEle{
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+.first-btn{
+    background-color: rgb(182, 182, 88) !important;
+    border: 1px solid rgb(182, 182, 88) !important;
+    color: white;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+}
+.bi{
+margin-left: 15px;
+}

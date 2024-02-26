@@ -1,0 +1,135 @@
+.container-fluid{
+    background-color: rgb(182, 182, 88);
+    margin:0;
+    height: 60px;
+   
+}
+h5{
+    color: white !important;
+    margin-left: 20px;
+}
+#navbarSupportedContent{
+   padding-left: 30em;
+   font-size: 20px;
+}
+.nav-item-1{
+    margin-right: 25px;
+    color:red;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item-2{
+    margin-right: 25px;
+}
+.nav-item-3{
+    margin-right: 25px;
+}
+.nav-item-5{
+    margin-left: 20px;
+}
+footer{
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(182, 182, 88);
+}
+
+#footerEle{
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+table{
+        width: 80%;
+        margin-left: 100px;   
+    border: 1px solid rgb(182, 182, 88);
+  
+}
+th{
+   padding-left: 50px;
+   font-weight: bold;
+   font-size: large; 
+   color : rgb(182, 182, 88);
+   
+}
+td{
+    padding-left: 50px;
+    color: rgb(88, 87, 87);
+}
+h3{
+    color : rgb(182, 182, 88) !important; 
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slideFromBottom 1s ease-out forwards;
+   
+}
+ @keyframes slideFromBottom {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        }
+
+ .data{
+    border: 1px solid  rgb(182, 182, 88);
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 800px;
+    border-radius: 5px;
+ }      
+ #add{
+    width: 50%;
+    background-color: rgb(182, 182, 88);
+    border: 1px solid rgb(182, 182, 88);
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 250px;
+   
+ }
+.modal-body{
+    
+    display: block;
+   height: 200px;
+  margin-left: 12%;
+}
+#exampleModalLabel{
+    color:  rgb(182, 182, 88);
+    margin-left: 35%;
+}
+input{
+    border: 1px solid  rgb(182, 182, 88);
+    border-radius: 5px;
+    width: 350px;
+    
+}
+label{
+    color: rgb(134, 134, 134);
+    font-size: smaller;
+    margin-left: 5%;
+}
+#imp{
+    background-color: rgb(182, 182, 88) ;
+    border: 1px solid  rgb(182, 182, 88);
+    width: 20%;
+}
+#msg{
+    font-size: x-small;
+    color: red;
+}
+.tasks{
+    padding-left: 10%;
+}
+.options{
+    column-gap: 14px;
+
+}
+.bi{
+    margin-left: 8px;
+  
+}

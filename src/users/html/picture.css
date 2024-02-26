@@ -1,0 +1,96 @@
+.container-fluid{
+    background-color: rgb(182, 182, 88);
+    margin:0;
+    height: 60px;
+   
+}
+h5{
+    color: white !important;
+    margin-left: 20px;
+}
+#navbarSupportedContent{
+   padding-left: 30em;
+   font-size: 20px;
+}
+.nav-item-1{
+    margin-right: 25px;
+    color:red;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item-2{
+    margin-right: 25px;
+}
+.nav-item-3{
+    margin-right: 25px;
+}
+.nav-item-5{
+    margin-left: 20px;
+}
+#ImageData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.photoCard {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid  rgb(226, 226, 133) ;
+    border-radius: 5px;
+    max-width: 300px;
+    box-shadow: 5px 5px 10px rgb(172, 172, 170) ;
+   
+}
+
+
+.photoCard img {
+    max-width: 100%;
+    height: auto;
+
+}  
+
+footer{
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(182, 182, 88);
+    
+}
+
+#footerEle{
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+h2{
+    color: rgb(182, 182, 88);
+    text-align: center;
+    padding-top: 30px;
+    opacity: 0;
+transform: translateY(100%);
+animation: slideFromBottom 1s ease-out forwards;
+}
+@keyframes slideFromBottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
+#heading{
+    margin-left: 450px;
+    font-weight: lighter;
+    color: grey;
+   font-style: italic;
+   padding-bottom: 20px;
+   opacity: 0;
+   transform: translateY(100%);
+   animation: slideFromBottom 1s ease-out forwards;
+}
+@keyframes slideFromBottom {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }

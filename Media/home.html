@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="/src/users/js/login.js" defer></script> -->
+</head>
+<body>
+</body>
+<script>
+
+function request()
+{
+  fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+    .then(json => console.log(json))
+}
+
+</script>
+</html>
